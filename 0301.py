@@ -1,6 +1,7 @@
 def reverse(msg):
     return msg[::-1]
-
+    
+#reverse string slice
 num = (input('num = '))
 reversed_num = reverse(num)
 print(reversed_num)
